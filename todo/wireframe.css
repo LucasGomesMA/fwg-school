@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(imagens/fundo2.jpg);
+    background-size: cover;
+    
+}
+
+h1 {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 3px;
+}
+
+#name {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+header img {
+    border: 1px solid #a5a3a3;
+    border-radius: 100%;
+    margin: 10px 10px 10px 30px;
+    height: 60px;
+    width: 60px;
+    float: left;
+}
+
+header {
+    color: #655f5f;
+    background-color: #ae8dd763;
+    border: 1px solid #a5a3a3;
+    height: 80px;
+}
+
+header p {
+    font-size: 13px;
+    margin-top: 0;
+}
+
+main {
+    background-color: #e9e1e180;
+    margin: auto;
+    margin-top: 60px;
+    height: 900px;
+    width: 900px;
+    border: 1px solid #a5a3a3;
+}
+
+.task {
+    width: 100%;
+    height: 60px;
+    border: 0;
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li:first-child {
+    border-top: 1px solid #a5a3a3;
+}
+
+ul li{
+    border-bottom: 1px solid #a5a3a3;
+    padding: 15px 20px;
+}
+
+.tarefas {
+    float: right;
+}
+
+.gambiarra {
+    cursor: pointer;
+    border: 2px solid #a5a3a3;
+    border-radius: 100%;
+    float: right;
+    height: 20px;
+    width: 20px;
+}
+
+.gambiarra:hover , .gambiarra.feito:hover {
+    border: 2px solid #a5a3a3;
+    background: #46dd678a;
+}
+
+.tarefas.feito {
+    text-decoration: line-through;
+}
